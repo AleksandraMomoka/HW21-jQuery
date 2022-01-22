@@ -2,9 +2,9 @@ $('.test').css('color', 'red');
 
 $('h2.test').css('color', 'red');
 
-$('p').next().css('color', 'red');
+$('p + p').next().css('color', 'red');
 
-$('.www').next().css('color', 'red');
+$('li + li.www').next().css('color', 'red');
 
 $('h2 i').css('color', 'red');
 
